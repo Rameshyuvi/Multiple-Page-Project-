@@ -1,0 +1,89 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+     body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+       text-align: center;        
+     }
+     .container{
+        background-color: rgb(104, 111, 117);
+        height: 800px;
+        width: 450px;
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 12px 10px 5px rgb(94, 90, 90);
+     }
+     .brandlogo{
+        background: url(../image/th.jpg);
+        height: 200px;
+        width: 200px;
+        margin: auto;
+        border-radius: 50%;
+     }
+     .inputs{
+        text-align: left;
+     }
+      label,input,button{
+        display: block;
+        width: 100%;
+        outline: none;
+        border: none;
+      }
+      label{
+        margin-bottom: 10px;
+      }
+      input{
+        padding: 10px;
+        border-radius: 50px;
+
+      }
+      button{
+        margin-top: 40px;
+        padding: 10px;
+        border-radius: 50px;
+        background-color: aqua;
+        cursor: pointer;
+        width: 473px;
+      }
+      a {
+        text-decoration: none;
+      }
+    </style>
+</head>
+
+<body>
+    <form method="post">
+    <div class="container">
+        <div class="brandlogo"></div>
+        <h3>login In Page</h3>
+        <div class="inputs">
+            <label for=""><h3>UserName:</h3></label><input type="text"  placeholder="Enter your UserName" value="Ramesh" >
+            <label for=""><h3>Password:</h3></label><input type="password" placeholder="Enter your Password" value="12345">
+            <a href="../html/E-commerce.html"><button type="button">login in</button></a>
+        </div>
+
+
+
+    </div>
+</form>
+
+
+</body>
+
+</html>
+
+
+

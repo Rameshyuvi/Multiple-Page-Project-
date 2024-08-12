@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: end;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    display:inline;
+    margin-right: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+#product{
+    display: flex;
+    justify-content: space-around;
+}
+.products{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+button{
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+footer{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
